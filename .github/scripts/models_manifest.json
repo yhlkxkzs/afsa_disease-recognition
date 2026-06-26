@@ -1,0 +1,20 @@
+{
+  "repo": "afsa_disease-recognition",
+  "exports_root": "exports",
+  "disease_models": [
+    {
+      "github_model_id": "yolo8m_seg",
+      "export_dir": "yolo8m_seg",
+      "note": "App 主模型槽位；方案 1+2 首选"
+    },
+    { "github_model_id": "yolo9c_seg", "export_dir": "yolo9c_seg" },
+    { "github_model_id": "yolo11m_seg", "export_dir": "yolo11m_seg" },
+    { "github_model_id": "yolo8n_seg", "export_dir": "yolo8n_seg" },
+    { "github_model_id": "yolo11n_seg", "export_dir": "yolo11n_seg" },
+    { "github_model_id": "yolo10s_seg", "export_dir": "yolo10s_seg" },
+    { "github_model_id": "yolo5s_seg", "export_dir": "yolo5s_seg" },
+    { "github_model_id": "yolo8s_seg", "export_dir": "yolo8s_seg" },
+    { "github_model_id": "yolo11s_seg", "export_dir": "yolo11s_seg" },
+    { "github_model_id": "yolo11s_detect", "export_dir": "yolo11s_detect" }
+  ]
+}
