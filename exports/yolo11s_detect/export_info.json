@@ -1,0 +1,18 @@
+{
+  "task_id": "disease_classification",
+  "task_type": "detection",
+  "model_id": "yolo11s_detect",
+  "github_model_id": "yolo11s_detect",
+  "scheme": "1+2",
+  "nc": 213,
+  "image_size": 640,
+  "metrics": {
+    "best_epoch": 5,
+    "metrics/precision(B)": 0.57198,
+    "metrics/recall(B)": 0.43141,
+    "metrics/mAP50(B)": 0.43525,
+    "metrics/mAP50-95(B)": 0.30486
+  },
+  "weight_file": "best.pt",
+  "note": "YOLO detect: class only (no mask)"
+}

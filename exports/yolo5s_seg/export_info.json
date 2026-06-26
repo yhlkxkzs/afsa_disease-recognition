@@ -1,0 +1,12 @@
+{
+  "task_id": "disease_classification",
+  "task_type": "segmentation",
+  "model_id": "yolo5s_seg",
+  "github_model_id": "yolo5s_seg",
+  "scheme": "1+2",
+  "nc": 213,
+  "image_size": 640,
+  "metrics": {},
+  "weight_file": "best.pt",
+  "note": "YOLO seg: class + mask → severity via mask/bbox area ratio"
+}

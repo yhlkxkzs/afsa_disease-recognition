@@ -1,0 +1,22 @@
+{
+  "task_id": "disease_classification",
+  "task_type": "segmentation",
+  "model_id": "yolo8n_seg",
+  "github_model_id": "yolo8n_seg",
+  "scheme": "1+2",
+  "nc": 213,
+  "image_size": 640,
+  "metrics": {
+    "best_epoch": 100,
+    "metrics/precision(B)": 0.4976,
+    "metrics/recall(B)": 0.42466,
+    "metrics/mAP50(B)": 0.41627,
+    "metrics/mAP50-95(B)": 0.29069,
+    "metrics/precision(M)": 0.49451,
+    "metrics/recall(M)": 0.41949,
+    "metrics/mAP50(M)": 0.41102,
+    "metrics/mAP50-95(M)": 0.27137
+  },
+  "weight_file": "best.pt",
+  "note": "YOLO seg: class + mask → severity via mask/bbox area ratio"
+}

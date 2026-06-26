@@ -1,0 +1,8 @@
+# Training artifacts (not for GitHub)
+runs/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Large local data symlinks
+data/
