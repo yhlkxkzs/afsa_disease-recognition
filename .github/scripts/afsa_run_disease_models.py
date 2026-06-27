@@ -15,6 +15,7 @@ REPO_ROOT = SCRIPT_DIR.parents[1]
 MANIFEST = SCRIPT_DIR / "models_manifest.json"
 
 from afsa_write_predictions import OUT, append_row, ensure_parent
+from afsa_disease_display import disease_display
 
 try:
     from ultralytics import YOLO
@@ -61,14 +62,10 @@ def is_healthy_class(raw_class: str) -> bool:
 
 
 def display_fields(raw_class: str) -> dict:
-    en = raw_class.replace("_", " ").strip().title()
-    zh = "健康" if is_healthy_class(raw_class) else en
-    return {
-        "raw_class": raw_class,
-        "predicted_class": zh,
-        "predicted_class_zh": zh,
-        "predicted_class_en": en,
-    }
+    row = disease_display(raw_class)
+    if is_healthy_class(raw_class):
+        row["predicted_class"] = row["predicted_class_zh"]
+    return row
 
 
 def load_class_names(export_dir: Path) -> list[str]:

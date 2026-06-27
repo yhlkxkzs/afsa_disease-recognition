@@ -1,0 +1,854 @@
+{
+  "version": 1,
+  "description": "Map YOLO disease class slug to display names (en + zh); 213 scheme-1+2 classes",
+  "classes": {
+    "brown_rot": {
+      "en": "Brown Rot",
+      "zh": "腐烂病"
+    },
+    "healthy": {
+      "en": "Healthy",
+      "zh": "健康"
+    },
+    "powdery_mildew": {
+      "en": "Powdery Mildew",
+      "zh": "Powdery Mildew"
+    },
+    "rotten_powdery_shot_hole": {
+      "en": "Rotten Powdery Shot Hole",
+      "zh": "Rotten Powdery Shot Hole"
+    },
+    "shot_hole": {
+      "en": "Shot Hole",
+      "zh": "Shot Hole"
+    },
+    "cacao": {
+      "en": "Cacao",
+      "zh": "Cacao"
+    },
+    "disease": {
+      "en": "Disease",
+      "zh": "病害"
+    },
+    "cpb": {
+      "en": "Cpb",
+      "zh": "Cpb"
+    },
+    "bercak_batang": {
+      "en": "Bercak Batang",
+      "zh": "Bercak Batang"
+    },
+    "brown_spot": {
+      "en": "Brown Spot",
+      "zh": "斑点病"
+    },
+    "dried_lesion": {
+      "en": "Dried Lesion",
+      "zh": "Dried Lesion"
+    },
+    "stem_rot": {
+      "en": "Stem Rot",
+      "zh": "腐烂病"
+    },
+    "eggplant_fruit_disease": {
+      "en": "Eggplant Fruit Disease",
+      "zh": "茄子病害"
+    },
+    "fruit_borer": {
+      "en": "Fruit Borer",
+      "zh": "蛀虫"
+    },
+    "fruit_rot": {
+      "en": "Fruit Rot",
+      "zh": "腐烂病"
+    },
+    "melon_thrip": {
+      "en": "Melon Thrip",
+      "zh": "蓟马"
+    },
+    "blotch_apple": {
+      "en": "Apple Blotch",
+      "zh": "苹果"
+    },
+    "healthy_apple": {
+      "en": "Healthy Apple",
+      "zh": "苹果健康"
+    },
+    "mango_alternaria": {
+      "en": "Mango Alternaria",
+      "zh": "芒果"
+    },
+    "mango_anthracnose": {
+      "en": "Mango Anthracnose",
+      "zh": "芒果炭疽病"
+    },
+    "mango_black_mould_rot": {
+      "en": "Mango Black Mould Rot",
+      "zh": "芒果腐烂病"
+    },
+    "mango_healthy": {
+      "en": "Healthy Mango",
+      "zh": "芒果健康"
+    },
+    "orange_blackspot": {
+      "en": "Citrus Black Spot",
+      "zh": "橙黑星病"
+    },
+    "orange_canker": {
+      "en": "Citrus Canker",
+      "zh": "柑橘溃疡病"
+    },
+    "orange_greening": {
+      "en": "Citrus Greening",
+      "zh": "柑橘黄龙病"
+    },
+    "orange_healthy": {
+      "en": "Healthy Orange",
+      "zh": "橙子健康"
+    },
+    "pomegranate_alternaria": {
+      "en": "Pomegranate Alternaria",
+      "zh": "石榴"
+    },
+    "pomegranate_anthracnose": {
+      "en": "Pomegranate Anthracnose",
+      "zh": "石榴炭疽病"
+    },
+    "pomegranate_bacterial_blight": {
+      "en": "Pomegranate Bacterial Blight",
+      "zh": "石榴疫病"
+    },
+    "pomegranate_healthy": {
+      "en": "Healthy Pomegranate",
+      "zh": "石榴健康"
+    },
+    "rot_apple": {
+      "en": "Apple Rot",
+      "zh": "苹果腐烂病"
+    },
+    "scab_apple": {
+      "en": "Apple Scab",
+      "zh": "苹果黑星病"
+    },
+    "apple_leaf": {
+      "en": "Apple Leaf",
+      "zh": "苹果"
+    },
+    "apple_rust_leaf": {
+      "en": "Apple Rust Leaf",
+      "zh": "苹果锈病"
+    },
+    "apple_scab_leaf": {
+      "en": "Apple Scab (Leaf)",
+      "zh": "苹果黑星病（叶）"
+    },
+    "bell_pepper_leaf": {
+      "en": "Bell Pepper Leaf",
+      "zh": "辣椒"
+    },
+    "bell_pepper_leaf_spot": {
+      "en": "Bell Pepper Leaf Spot",
+      "zh": "辣椒斑点病"
+    },
+    "blueberry_leaf": {
+      "en": "Blueberry Leaf",
+      "zh": "蓝莓"
+    },
+    "cherry_leaf": {
+      "en": "Cherry Leaf",
+      "zh": "樱桃"
+    },
+    "corn_gray_leaf_spot": {
+      "en": "Corn Gray Leaf Spot",
+      "zh": "玉米斑点病"
+    },
+    "corn_leaf_blight": {
+      "en": "Corn Leaf Blight",
+      "zh": "玉米疫病"
+    },
+    "corn_rust_leaf": {
+      "en": "Corn Rust Leaf",
+      "zh": "玉米锈病"
+    },
+    "fruit": {
+      "en": "Fruit",
+      "zh": "Fruit"
+    },
+    "grape_leaf": {
+      "en": "Grape Leaf",
+      "zh": "葡萄"
+    },
+    "grape_leaf_black_rot": {
+      "en": "Grape Black Rot",
+      "zh": "葡萄腐烂病"
+    },
+    "peach_leaf": {
+      "en": "Peach Leaf",
+      "zh": "桃"
+    },
+    "potato_leaf_early_blight": {
+      "en": "Potato Early Blight",
+      "zh": "马铃薯疫病"
+    },
+    "potato_leaf_late_blight": {
+      "en": "Potato Late Blight",
+      "zh": "马铃薯疫病"
+    },
+    "raspberry_leaf": {
+      "en": "Raspberry Leaf",
+      "zh": "Raspberry Leaf"
+    },
+    "soyabean_leaf": {
+      "en": "Soyabean Leaf",
+      "zh": "Soyabean Leaf"
+    },
+    "squash_powdery_mildew_leaf": {
+      "en": "Squash Powdery Mildew Leaf",
+      "zh": "Squash Powdery Mildew Leaf"
+    },
+    "strawberry_leaf": {
+      "en": "Strawberry Leaf",
+      "zh": "草莓"
+    },
+    "tomato_early_blight_leaf": {
+      "en": "Tomato Early Blight",
+      "zh": "番茄疫病"
+    },
+    "tomato_leaf": {
+      "en": "Tomato Leaf",
+      "zh": "番茄"
+    },
+    "tomato_leaf_bacterial_spot": {
+      "en": "Tomato Leaf Bacterial Spot",
+      "zh": "番茄斑点病"
+    },
+    "tomato_leaf_late_blight": {
+      "en": "Tomato Late Blight",
+      "zh": "番茄疫病"
+    },
+    "tomato_leaf_mosaic_viru": {
+      "en": "Tomato Leaf Mosaic Viru",
+      "zh": "番茄花叶病"
+    },
+    "tomato_leaf_yellow_viru": {
+      "en": "Tomato Leaf Yellow Viru",
+      "zh": "番茄"
+    },
+    "tomato_mold_leaf": {
+      "en": "Tomato Mold Leaf",
+      "zh": "番茄"
+    },
+    "tomato_septoria_leaf_spot": {
+      "en": "Tomato Septoria Leaf Spot",
+      "zh": "番茄斑点病"
+    },
+    "anthracnose": {
+      "en": "Anthracnose",
+      "zh": "炭疽病"
+    },
+    "apple_scab": {
+      "en": "Apple Scab",
+      "zh": "苹果黑星病"
+    },
+    "citrus_anthracnose": {
+      "en": "Citrus Anthracnose",
+      "zh": "柑橘炭疽病"
+    },
+    "citrus_back_spot": {
+      "en": "Citrus Back Spot",
+      "zh": "柑橘斑点病"
+    },
+    "colletrotrichum_acutatum": {
+      "en": "Colletrotrichum Acutatum",
+      "zh": "Colletrotrichum Acutatum"
+    },
+    "fruit_disease": {
+      "en": "Fruit Disease",
+      "zh": "病害"
+    },
+    "fruit_spot": {
+      "en": "Fruit Spot",
+      "zh": "斑点病"
+    },
+    "guava_anthracnose": {
+      "en": "Guava Anthracnose",
+      "zh": "番石榴炭疽病"
+    },
+    "guava_rot": {
+      "en": "Guava Rot",
+      "zh": "番石榴腐烂病"
+    },
+    "guava_rust": {
+      "en": "Guava Rust",
+      "zh": "番石榴锈病"
+    },
+    "melanose_diaporthe_citri": {
+      "en": "Melanose Diaporthe Citri",
+      "zh": "Melanose Diaporthe Citri"
+    },
+    "muskmelon_black_rot": {
+      "en": "Muskmelon Black Rot",
+      "zh": "腐烂病"
+    },
+    "papaya_anthracnose": {
+      "en": "Papaya Anthracnose",
+      "zh": "木瓜炭疽病"
+    },
+    "papaya_ring_spot": {
+      "en": "Papaya Ring Spot",
+      "zh": "木瓜斑点病"
+    },
+    "pear_rust": {
+      "en": "Pear Rust",
+      "zh": "梨锈病"
+    },
+    "pear_scab": {
+      "en": "Pear Scab",
+      "zh": "梨黑星病"
+    },
+    "pineapple_fusariosi": {
+      "en": "Pineapple Fusariosi",
+      "zh": "Pineapple Fusariosi"
+    },
+    "pineapple_green_fruit_rot": {
+      "en": "Pineapple Green Fruit Rot",
+      "zh": "腐烂病"
+    },
+    "pomegranate_alternaria_fruit_spot": {
+      "en": "Pomegranate Alternaria Fruit Spot",
+      "zh": "石榴斑点病"
+    },
+    "powdery_mildew_strawberry": {
+      "en": "Powdery Mildew Strawberry",
+      "zh": "草莓"
+    },
+    "sooty_blotch": {
+      "en": "Sooty Blotch",
+      "zh": "Sooty Blotch"
+    },
+    "strawberry_anthracnose": {
+      "en": "Strawberry Anthracnose",
+      "zh": "草莓炭疽病"
+    },
+    "strawberry_botrytis_cinere": {
+      "en": "Strawberry Botrytis Cinere",
+      "zh": "草莓"
+    },
+    "strawberry_sunscald": {
+      "en": "Strawberry Sunscald",
+      "zh": "草莓"
+    },
+    "alternaria": {
+      "en": "Alternaria",
+      "zh": "Alternaria"
+    },
+    "bacterial_blight": {
+      "en": "Bacterial Blight",
+      "zh": "疫病"
+    },
+    "cercospora": {
+      "en": "Cercospora",
+      "zh": "Cercospora"
+    },
+    "black_measle": {
+      "en": "Black Measle",
+      "zh": "Black Measle"
+    },
+    "black_rot": {
+      "en": "Black Rot",
+      "zh": "腐烂病"
+    },
+    "blight_fungu": {
+      "en": "Blight Fungu",
+      "zh": "疫病"
+    },
+    "disease_wgxb": {
+      "en": "Disease Wgxb",
+      "zh": "病害"
+    },
+    "leaf_blight": {
+      "en": "Leaf Blight",
+      "zh": "疫病"
+    },
+    "angular_leafspot": {
+      "en": "Angular Leafspot",
+      "zh": "Angular Leafspot"
+    },
+    "anthracnose_fruit_rot": {
+      "en": "Anthracnose Fruit Rot",
+      "zh": "炭疽病腐烂病"
+    },
+    "blossom_blight": {
+      "en": "Blossom Blight",
+      "zh": "疫病"
+    },
+    "gray_mold": {
+      "en": "Gray Mold",
+      "zh": "Gray Mold"
+    },
+    "leaf_spot": {
+      "en": "Leaf Spot",
+      "zh": "斑点病"
+    },
+    "powdery_mildew_fruit": {
+      "en": "Powdery Mildew Fruit",
+      "zh": "Powdery Mildew Fruit"
+    },
+    "powdery_mildew_leaf": {
+      "en": "Powdery Mildew Leaf",
+      "zh": "Powdery Mildew Leaf"
+    },
+    "alernaria": {
+      "en": "Alernaria",
+      "zh": "Alernaria"
+    },
+    "nematode": {
+      "en": "Nematode",
+      "zh": "Nematode"
+    },
+    "lychee": {
+      "en": "Lychee",
+      "zh": "Lychee"
+    },
+    "lychee_curl_leaf": {
+      "en": "Lychee Curl Leaf",
+      "zh": "Lychee Curl Leaf"
+    },
+    "lychee_deficiency_leaf": {
+      "en": "Lychee Deficiency Leaf",
+      "zh": "Lychee Deficiency Leaf"
+    },
+    "lychee_felt_leaf": {
+      "en": "Lychee Felt Leaf",
+      "zh": "Lychee Felt Leaf"
+    },
+    "lychee_fungal_leaf_spot": {
+      "en": "Lychee Fungal Leaf Spot",
+      "zh": "斑点病"
+    },
+    "lychee_healthy_leaf": {
+      "en": "Healthy",
+      "zh": "健康"
+    },
+    "lychee_leaf_blight": {
+      "en": "Lychee Leaf Blight",
+      "zh": "疫病"
+    },
+    "lychee_leaf_gall": {
+      "en": "Lychee Leaf Gall",
+      "zh": "Lychee Leaf Gall"
+    },
+    "overripe": {
+      "en": "Overripe",
+      "zh": "Overripe"
+    },
+    "pineapple": {
+      "en": "Pineapple",
+      "zh": "Pineapple"
+    },
+    "pineapple_q7uo": {
+      "en": "Pineapple Q7Uo",
+      "zh": "Pineapple Q7Uo"
+    },
+    "ripe": {
+      "en": "Ripe",
+      "zh": "Ripe"
+    },
+    "unripe": {
+      "en": "Unripe",
+      "zh": "Unripe"
+    },
+    "pineapple_rind_defect": {
+      "en": "Pineapple Rind Defect",
+      "zh": "Pineapple Rind Defect"
+    },
+    "rind_defect": {
+      "en": "Rind Defect",
+      "zh": "Rind Defect"
+    },
+    "pomegranate": {
+      "en": "Pomegranate",
+      "zh": "石榴"
+    },
+    "mealybug": {
+      "en": "Mealybug",
+      "zh": "Mealybug"
+    },
+    "apple_disease": {
+      "en": "Apple Disease",
+      "zh": "苹果病害"
+    },
+    "appleblackrot": {
+      "en": "Appleblackrot",
+      "zh": "Appleblackrot"
+    },
+    "applecedarrust": {
+      "en": "Applecedarrust",
+      "zh": "Applecedarrust"
+    },
+    "appleleaf": {
+      "en": "Appleleaf",
+      "zh": "Appleleaf"
+    },
+    "applescab": {
+      "en": "Applescab",
+      "zh": "Applescab"
+    },
+    "apple_scab_disease": {
+      "en": "Apple Scab Disease",
+      "zh": "苹果黑星病病害"
+    },
+    "plant_leaf": {
+      "en": "Plant Leaf",
+      "zh": "Plant Leaf"
+    },
+    "aaa": {
+      "en": "Aaa",
+      "zh": "Aaa"
+    },
+    "blackspot": {
+      "en": "Blackspot",
+      "zh": "黑星病"
+    },
+    "canker": {
+      "en": "Canker",
+      "zh": "溃疡病"
+    },
+    "greening": {
+      "en": "Greening",
+      "zh": "黄龙病"
+    },
+    "melanose": {
+      "en": "Melanose",
+      "zh": "Melanose"
+    },
+    "caterpillar": {
+      "en": "Caterpillar",
+      "zh": "Caterpillar"
+    },
+    "caterpillar_spot": {
+      "en": "Caterpillar Spot",
+      "zh": "斑点病"
+    },
+    "coconut_leave": {
+      "en": "Coconut Leave",
+      "zh": "Coconut Leave"
+    },
+    "drying": {
+      "en": "Drying",
+      "zh": "Drying"
+    },
+    "finger": {
+      "en": "Finger",
+      "zh": "Finger"
+    },
+    "flaccidity": {
+      "en": "Flaccidity",
+      "zh": "Flaccidity"
+    },
+    "yellowing": {
+      "en": "Yellowing",
+      "zh": "Yellowing"
+    },
+    "bud_root_dropping": {
+      "en": "Bud Root Dropping",
+      "zh": "Bud Root Dropping"
+    },
+    "bud_rot": {
+      "en": "Bud Rot",
+      "zh": "腐烂病"
+    },
+    "coconuttree": {
+      "en": "Coconuttree",
+      "zh": "Coconuttree"
+    },
+    "gray_leaf_spot": {
+      "en": "Gray Leaf Spot",
+      "zh": "斑点病"
+    },
+    "leaf_rot": {
+      "en": "Leaf Rot",
+      "zh": "腐烂病"
+    },
+    "stembleeding": {
+      "en": "Stembleeding",
+      "zh": "Stembleeding"
+    },
+    "fruit_disease_3trj": {
+      "en": "Fruit Disease 3Trj",
+      "zh": "病害"
+    },
+    "durian_leaf_disease": {
+      "en": "Durian Leaf Disease",
+      "zh": "病害"
+    },
+    "healthy_leaf": {
+      "en": "Healthy",
+      "zh": "健康"
+    },
+    "leaf_blight_anthracnose": {
+      "en": "Leaf Blight Anthracnose",
+      "zh": "疫病炭疽病"
+    },
+    "leaf_blight_phyllosticta": {
+      "en": "Leaf Blight Phyllosticta",
+      "zh": "疫病"
+    },
+    "leaf_blight_rhizoctonia": {
+      "en": "Leaf Blight Rhizoctonia",
+      "zh": "疫病"
+    },
+    "leaf_phytophthora": {
+      "en": "Leaf Phytophthora",
+      "zh": "Leaf Phytophthora"
+    },
+    "leaf_spot_algal": {
+      "en": "Leaf Spot Algal",
+      "zh": "斑点病"
+    },
+    "leaf_spot_pseudocercospora": {
+      "en": "Leaf Spot Pseudocercospora",
+      "zh": "斑点病"
+    },
+    "earworm": {
+      "en": "Earworm",
+      "zh": "Earworm"
+    },
+    "flea_beetle_s_damage": {
+      "en": "Flea Beetle S Damage",
+      "zh": "甲虫"
+    },
+    "leafhopper": {
+      "en": "Leafhopper",
+      "zh": "Leafhopper"
+    },
+    "plantdoc": {
+      "en": "Plantdoc",
+      "zh": "Plantdoc"
+    },
+    "potato_leaf": {
+      "en": "Potato Leaf",
+      "zh": "马铃薯"
+    },
+    "tomato_two_spotted_spider_mites_leaf": {
+      "en": "Tomato Two Spotted Spider Mites Leaf",
+      "zh": "番茄"
+    },
+    "bacterial_spot": {
+      "en": "Bacterial Spot",
+      "zh": "斑点病"
+    },
+    "blossom_end_rot": {
+      "en": "Blossom End Rot",
+      "zh": "腐烂病"
+    },
+    "cracking": {
+      "en": "Cracking",
+      "zh": "Cracking"
+    },
+    "damaged_jackfruit": {
+      "en": "Damaged Jackfruit",
+      "zh": "Damaged Jackfruit"
+    },
+    "healthy_jackfruit": {
+      "en": "Healthy",
+      "zh": "健康"
+    },
+    "jackfruit_healthy_leaf": {
+      "en": "Healthy",
+      "zh": "健康"
+    },
+    "jackfruit_leaf_blight": {
+      "en": "Jackfruit Leaf Blight",
+      "zh": "疫病"
+    },
+    "jackfruit_leaf_spot": {
+      "en": "Jackfruit Leaf Spot",
+      "zh": "斑点病"
+    },
+    "jackfruit_rhizopus_rot": {
+      "en": "Jackfruit Rhizopus Rot",
+      "zh": "腐烂病"
+    },
+    "jackfruit": {
+      "en": "Jackfruit",
+      "zh": "Jackfruit"
+    },
+    "black_spot": {
+      "en": "Black Spot",
+      "zh": "斑点病"
+    },
+    "blue_gren_mold": {
+      "en": "Blue Gren Mold",
+      "zh": "Blue Gren Mold"
+    },
+    "citrus_greening": {
+      "en": "Citrus Greening",
+      "zh": "柑橘黄龙病"
+    },
+    "cranker": {
+      "en": "Cranker",
+      "zh": "Cranker"
+    },
+    "sooty_mold": {
+      "en": "Sooty Mold",
+      "zh": "Sooty Mold"
+    },
+    "aphid": {
+      "en": "Aphid",
+      "zh": "蚜虫"
+    },
+    "beetle": {
+      "en": "Beetle",
+      "zh": "甲虫"
+    },
+    "black_block": {
+      "en": "Black Block",
+      "zh": "Black Block"
+    },
+    "dry_blight": {
+      "en": "Dry Blight",
+      "zh": "疫病"
+    },
+    "health": {
+      "en": "Healthy",
+      "zh": "健康"
+    },
+    "rust": {
+      "en": "Rust",
+      "zh": "锈病"
+    },
+    "scab": {
+      "en": "Scab",
+      "zh": "黑星病"
+    },
+    "cassava_brown_leaf_spot": {
+      "en": "Cassava Brown Leaf Spot",
+      "zh": "木薯斑点病"
+    },
+    "cassava_healthy": {
+      "en": "Healthy Cassava",
+      "zh": "木薯健康"
+    },
+    "cassava_mosaic": {
+      "en": "Cassava Mosaic",
+      "zh": "木薯花叶病"
+    },
+    "cassava_root_rot": {
+      "en": "Cassava Root Rot",
+      "zh": "木薯腐烂病"
+    },
+    "corn_brown_spot": {
+      "en": "Corn Brown Spot",
+      "zh": "玉米斑点病"
+    },
+    "corn_healthy": {
+      "en": "Healthy Corn",
+      "zh": "玉米健康"
+    },
+    "corn_mildew": {
+      "en": "Corn Mildew",
+      "zh": "玉米"
+    },
+    "corn_streak": {
+      "en": "Corn Streak",
+      "zh": "玉米"
+    },
+    "corn_stripe": {
+      "en": "Corn Stripe",
+      "zh": "玉米"
+    },
+    "corn_yellowing": {
+      "en": "Corn Yellowing",
+      "zh": "玉米"
+    },
+    "tomato_blight_leaf": {
+      "en": "Tomato Blight Leaf",
+      "zh": "番茄疫病"
+    },
+    "tomato_brown_spot": {
+      "en": "Tomato Brown Spot",
+      "zh": "番茄斑点病"
+    },
+    "rotten_guava": {
+      "en": "Rotten Guava",
+      "zh": "番石榴"
+    },
+    "early_turning": {
+      "en": "Early Turning",
+      "zh": "Early Turning"
+    },
+    "green_strawberry": {
+      "en": "Green Strawberry",
+      "zh": "草莓"
+    },
+    "late_turning": {
+      "en": "Late Turning",
+      "zh": "Late Turning"
+    },
+    "red_turning": {
+      "en": "Red Turning",
+      "zh": "Red Turning"
+    },
+    "strawberry_fruit_and_leaf": {
+      "en": "Strawberry Fruit And Leaf",
+      "zh": "草莓"
+    },
+    "turning": {
+      "en": "Turning",
+      "zh": "Turning"
+    },
+    "white_strawberry": {
+      "en": "White Strawberry",
+      "zh": "草莓"
+    },
+    "healthy_tomato": {
+      "en": "Healthy Tomato",
+      "zh": "番茄健康"
+    },
+    "spotted_wilt_viru": {
+      "en": "Spotted Wilt Viru",
+      "zh": "Spotted Wilt Viru"
+    },
+    "antracnose": {
+      "en": "Antracnose",
+      "zh": "Antracnose"
+    },
+    "stem_end_rot": {
+      "en": "Stem End Rot",
+      "zh": "腐烂病"
+    },
+    "deeper_diseases___v5_2024_11_30_4_17pm": {
+      "en": "Deeper Diseases   V5 2024 11 30 4 17Pm",
+      "zh": "Deeper Diseases   V5 2024 11 30 4 17Pm"
+    },
+    "this_dataset_was_exported_via_roboflowcom_on_november_30__2024_at_10_25_am_gmt": {
+      "en": "This Dataset Was Exported Via Roboflowcom On November 30  2024 At 10 25 Am Gmt",
+      "zh": "This Dataset Was Exported Via Roboflowcom On November 30  2024 At 10 25 Am Gmt"
+    },
+    "watermelon": {
+      "en": "Watermelon",
+      "zh": "西瓜"
+    },
+    "instance_segmentation_model_for_": {
+      "en": "Instance Segmentation Model For",
+      "zh": "Instance Segmentation Model For"
+    },
+    "aphid_beetle_gankubing": {
+      "en": "Aphid Beetle Gankubing",
+      "zh": "蚜虫甲虫"
+    },
+    "caterpiller": {
+      "en": "Caterpiller",
+      "zh": "Caterpiller"
+    },
+    "chlorosi": {
+      "en": "Chlorosi",
+      "zh": "Chlorosi"
+    },
+    "potassium_defeciency": {
+      "en": "Potassium Defeciency",
+      "zh": "Potassium Defeciency"
+    }
+  }
+}
