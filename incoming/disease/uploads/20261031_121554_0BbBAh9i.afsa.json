@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "app": "afsa_mobile",
+  "detection_type": "disease",
+  "task_type": "disease_classification",
+  "image_path": "incoming/disease/uploads/20261031_121554_0BbBAh9i.jpg",
+  "github_model_target_id": "disease_all",
+  "afsa_detection_id": "rec_1793420154878",
+  "uploaded_at": "2026-10-31T04:15:56.584701Z"
+}
